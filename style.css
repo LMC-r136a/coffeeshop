@@ -1,0 +1,163 @@
+
+.playwrite-cu-pws {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+}
+
+body{
+    background-color:bisque;
+    font-size: 10px;
+    font-family:"Playwrite CU";
+}
+
+.social-icons {
+    width: 30px;
+    height: 30px;
+    margin: 10px 0px;
+    color:transparent;
+    text-decoration: none;
+}
+
+.socials {
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 0px;
+    background-color: burlywood;
+    height: 50px;
+}
+
+.MainImage {
+    margin: 100px 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    border-style: solid;
+    border-color: none;
+}
+
+.front-page-image {
+    width: 75%;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.drinks {
+    background-color: burlywood;
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.food {
+    background-color: burlywood;
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contacts {
+    background-color: burlywood;
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.navbar{
+    background-color: burlywood;
+    height: 50px;
+    font-family: "Playwrite CU";
+    display: flex;
+    justify-content: center;
+}
+
+.bcs{
+    height: 100px;
+    text-align: center;
+}
+
+.titlenav{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.main-image-aligner{
+    margin: 0px 0px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    border-style: solid;
+    border-color: none;
+    border-width: 1px;
+    height:800px;
+}
+
+.foodimages {
+    margin: 0px 0px;
+    height: 150px;
+    width: 175px;
+    padding: 0px 10px;
+    margin: 30px 0px 0px 0px;
+}
+
+.foodmenu{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 270px;
+}
+
+.drinksimages {
+    margin: 0px 0px;
+    height: 150px;
+    width: 175px;
+    padding: 0px 10px;
+    margin: 30px 0px 0px 0px;
+}
+
+.drinksmenu {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 270px;   
+}
+
+.listtimes {
+    list-style: none;
+}
+
+.drinks hover {background-color:blanchedalmond }
+
+.foods hover {background-color:blanchedalmond }
+
+.contacts hover {background-color:blanchedalmond }
+
+.drinks:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
